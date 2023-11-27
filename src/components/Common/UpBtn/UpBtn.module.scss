@@ -1,0 +1,16 @@
+@import 'styles/global.scss';
+
+.upDisplay {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 99;
+  width: 7rem;
+  height: 7rem;
+  background: $color-main url('/assets/img/icon-up.svg') no-repeat center / 12rem;
+  border-radius: 50%;
+}
+
+.upNonDisplay {
+  display: none;
+}

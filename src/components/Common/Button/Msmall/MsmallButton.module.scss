@@ -1,0 +1,14 @@
+@import 'styles/global.scss';
+@import 'styles/mixin.scss';
+
+.msmallButton {
+  @include msmallButtonCS;
+  color: #fff;
+  background: $color-main;
+}
+.msmallWhiteButton {
+  @include msmallButtonCS;
+  color: $color-767676;
+  border: 1px solid $color-c4c4c4;
+  background: #fff;
+}

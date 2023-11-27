@@ -1,0 +1,73 @@
+@import 'styles/global.scss';
+
+.section {
+  .contentBox {
+    border-radius: 1rem;
+    border: 0.1rem solid $color-main;
+    padding: 5rem;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    > section {
+      margin-bottom: 2rem;
+
+      > h2 {
+        margin-bottom: 1rem;
+      }
+    }
+
+    .imageContainer {
+      margin-top: 2rem;
+
+      .imageInput {
+        display: block;
+        border: 0.1rem solid $color-main;
+        border-radius: 1rem;
+        width: 35%;
+        padding: 0.5rem;
+        color: #999999;
+      }
+
+      .imagePreviewContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        > ul {
+          border-radius: 1rem;
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      display: block;
+      box-sizing: border-box;
+
+      padding: 1rem;
+      background-color: #f0f0f0;
+      border: none;
+      border-radius: 1rem;
+      resize: none;
+      font-size: 3rem;
+
+      &:focus {
+        outline: none;
+      }
+    }
+    .textTitle {
+      display: flex;
+      gap: 1rem;
+    }
+
+    .counter {
+      width: 100%;
+      display: block;
+      text-align: end;
+      font-size: 2rem;
+    }
+
+    .btn {
+      text-align: end;
+    }
+  }
+}
